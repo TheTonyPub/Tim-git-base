@@ -1,0 +1,38 @@
+fa401f6 HEAD@{2026-09-04 16:20:33 +0300}: reset: moving to fa401f6
+7773aa6 HEAD@{2026-09-04 16:18:02 +0300}: reset: moving to HEAD~1
+fa401f6 HEAD@{2026-09-04 16:18:01 +0300}: commit: commit to lose
+7773aa6 HEAD@{2026-09-04 16:17:20 +0300}: cherry-pick: hotfix: handle negative n
+cad1dea HEAD@{2026-09-04 16:17:20 +0300}: checkout: moving from hotfix to work-branch
+8fca9c7 HEAD@{2026-09-04 16:17:19 +0300}: commit: hotfix: handle negative n
+cad1dea HEAD@{2026-09-04 16:16:47 +0300}: checkout: moving from work-branch to hotfix
+cad1dea HEAD@{2026-09-04 16:16:02 +0300}: checkout: moving from squash-demo to work-branch
+03b0deb HEAD@{2026-09-04 16:14:32 +0300}: rebase (finish): returning to refs/heads/squash-demo
+03b0deb HEAD@{2026-09-04 16:14:32 +0300}: rebase (squash): squash step 1: rename n to num
+dd50025 HEAD@{2026-09-04 16:14:32 +0300}: rebase (start): checkout HEAD~2
+5b62881 HEAD@{2026-09-04 16:13:12 +0300}: rebase (abort): returning to refs/heads/squash-demo
+7eca5ad HEAD@{2026-09-04 16:12:31 +0300}: rebase (start): checkout HEAD~2
+5b62881 HEAD@{2026-09-04 16:09:08 +0300}: commit: squash step 2: remove comment
+dd50025 HEAD@{2026-09-04 16:08:43 +0300}: commit: squash step 1: rename n to num
+7eca5ad HEAD@{2026-09-04 16:07:53 +0300}: checkout: moving from rebase-demo to squash-demo
+7eca5ad HEAD@{2026-09-04 16:07:43 +0300}: rebase (finish): returning to refs/heads/rebase-demo
+7eca5ad HEAD@{2026-09-04 16:07:43 +0300}: rebase (pick): rebase demo: add print statement
+cad1dea HEAD@{2026-09-04 16:07:43 +0300}: rebase (start): checkout work-branch
+0180c7f HEAD@{2026-09-04 16:07:43 +0300}: checkout: moving from work-branch to rebase-demo
+cad1dea HEAD@{2026-09-04 16:07:43 +0300}: commit: work-branch: add comment to base case
+f42a356 HEAD@{2026-09-04 16:07:08 +0300}: checkout: moving from rebase-demo to work-branch
+0180c7f HEAD@{2026-09-04 16:07:08 +0300}: commit: rebase demo: add print statement
+f42a356 HEAD@{2026-09-04 16:06:47 +0300}: checkout: moving from work-branch to rebase-demo
+f42a356 HEAD@{2026-09-04 16:05:52 +0300}: commit (merge): Merge branch 'conflict-demo' into work-branch
+7cd9fbc HEAD@{2026-09-04 16:04:35 +0300}: commit: work-branch: change fib arg to 12
+7df5b08 HEAD@{2026-09-04 16:04:03 +0300}: checkout: moving from conflict-demo to work-branch
+927463f HEAD@{2026-09-04 16:04:03 +0300}: commit: conflict demo: change fib arg to 20
+7df5b08 HEAD@{2026-09-04 16:03:43 +0300}: checkout: moving from work-branch to conflict-demo
+7df5b08 HEAD@{2026-09-04 16:03:33 +0300}: merge test-merge: Fast-forward
+f57b021 HEAD@{2026-09-04 16:03:33 +0300}: checkout: moving from test-merge to work-branch
+7df5b08 HEAD@{2026-09-04 16:03:33 +0300}: commit: test merge: add extra fib call
+f57b021 HEAD@{2026-09-04 16:03:15 +0300}: checkout: moving from work-branch to test-merge
+f57b021 HEAD@{2026-09-04 16:01:06 +0300}: checkout: moving from test-merge to work-branch
+f57b021 HEAD@{2026-09-04 16:00:54 +0300}: checkout: moving from work-branch to test-merge
+f57b021 HEAD@{2026-09-04 15:56:59 +0300}: commit: первоначальная реализация подсчёта числа фиббоначи
+7605903 HEAD@{2026-09-04 15:52:09 +0300}: checkout: moving from master to work-branch
+7605903 HEAD@{2026-09-04 15:51:29 +0300}: clone: from https://github.com/vegitobluefan/Tim-git-base.git
