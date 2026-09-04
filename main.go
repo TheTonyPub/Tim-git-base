@@ -7,10 +7,16 @@ func fib(n int) int {
 		return -1
 	}
 
-	if n < 2 { // базовый кейс
+	if n < 2 {
 		return n
 	}
-	return fib(n-1) + fib(n-2)
+
+	a, b := 0, 1
+	for i := 2; i <= n; i++ {
+		a, b = b, a+b
+	}
+
+	return b
 }
 
 func main() {
