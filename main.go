@@ -10,6 +10,6 @@ func fib(n int) int {
 }
 
 func main() {
-	fmt.Println(fib(10))
+	fmt.Println(fib(12))
 	fmt.Println(fib(15))
 }
