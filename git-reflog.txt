@@ -1,0 +1,36 @@
+5eec329 HEAD@{2026-09-04 18:47:14 +0100}: commit: docs: describe optimized Fibonacci solution
+191a3c6 HEAD@{2026-09-04 18:46:42 +0100}: reset: moving to 191a3c6f3e3610f00fd2989c11972f8f12fdbe06
+9452f7d HEAD@{2026-09-04 18:46:36 +0100}: reset: moving to 9452f7dccb5f3d3d0c138b69d06e24aad2150ee3
+191a3c6 HEAD@{2026-09-04 18:46:28 +0100}: commit: docs: explain Git practice scenario
+9452f7d HEAD@{2026-09-04 18:45:41 +0100}: cherry-pick: test: cover a large Fibonacci number
+3fe5f64 HEAD@{2026-09-04 18:45:41 +0100}: checkout: moving from feature/large-number-test to work-branch
+9452f7d HEAD@{2026-09-04 18:45:41 +0100}: commit: test: cover a large Fibonacci number
+3fe5f64 HEAD@{2026-09-04 18:45:30 +0100}: checkout: moving from work-branch to feature/large-number-test
+3fe5f64 HEAD@{2026-09-04 18:45:25 +0100}: commit (amend): perf: optimize Fibonacci calculation
+eec9527 HEAD@{2026-09-04 18:45:25 +0100}: rebase (finish): returning to refs/heads/work-branch
+eec9527 HEAD@{2026-09-04 18:45:25 +0100}: rebase (squash): perf: replace recursion with iteration
+6abbb41 HEAD@{2026-09-04 18:45:25 +0100}: rebase (start): checkout HEAD~2
+5de1c39 HEAD@{2026-09-04 18:45:18 +0100}: commit: fix: validate Fibonacci input type
+6abbb41 HEAD@{2026-09-04 18:45:03 +0100}: commit: perf: replace recursion with iteration
+4ffa376 HEAD@{2026-09-04 18:44:47 +0100}: merge practice/rebase: Fast-forward
+2652f23 HEAD@{2026-09-04 18:44:47 +0100}: checkout: moving from practice/rebase to work-branch
+4ffa376 HEAD@{2026-09-04 18:44:47 +0100}: rebase (finish): returning to refs/heads/practice/rebase
+4ffa376 HEAD@{2026-09-04 18:44:47 +0100}: rebase (pick): docs: start Git practice report
+2652f23 HEAD@{2026-09-04 18:44:47 +0100}: rebase (start): checkout work-branch
+56eceb9 HEAD@{2026-09-04 18:44:47 +0100}: checkout: moving from work-branch to practice/rebase
+2652f23 HEAD@{2026-09-04 18:44:47 +0100}: commit: test: add Fibonacci unit tests
+a044b98 HEAD@{2026-09-04 18:44:33 +0100}: checkout: moving from practice/rebase to work-branch
+56eceb9 HEAD@{2026-09-04 18:44:33 +0100}: commit: docs: start Git practice report
+a044b98 HEAD@{2026-09-04 18:44:21 +0100}: checkout: moving from work-branch to practice/rebase
+a044b98 HEAD@{2026-09-04 18:44:14 +0100}: commit (merge): merge: resolve output format conflict
+0dcdb4f HEAD@{2026-09-04 18:43:57 +0100}: commit: feat: add Russian output description
+7d8af68 HEAD@{2026-09-04 18:43:48 +0100}: checkout: moving from practice/output-label to work-branch
+5457de7 HEAD@{2026-09-04 18:43:48 +0100}: commit: feat: label Fibonacci output
+7d8af68 HEAD@{2026-09-04 18:43:34 +0100}: checkout: moving from work-branch to practice/output-label
+7d8af68 HEAD@{2026-09-04 18:43:28 +0100}: merge docs/run-guide: Merge made by the 'ort' strategy.
+094722f HEAD@{2026-09-04 18:43:28 +0100}: checkout: moving from docs/run-guide to work-branch
+df914b9 HEAD@{2026-09-04 18:43:28 +0100}: commit: docs: add run instructions
+094722f HEAD@{2026-09-04 18:43:28 +0100}: checkout: moving from work-branch to docs/run-guide
+094722f HEAD@{2026-09-04 18:43:14 +0100}: commit: feat: add recursive Fibonacci implementation
+21866be HEAD@{2026-09-04 18:41:31 +0100}: checkout: moving from master to work-branch
+21866be HEAD@{2026-09-04 17:50:25 +0100}: clone: from https://github.com/TheTonyPub/Tim-git-base.git
