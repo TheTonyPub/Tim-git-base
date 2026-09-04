@@ -120,3 +120,9 @@ git reflog --date=iso > git-reflog.txt
 - Чем git отличается от других систем контроля версий?
 - Как git внутри хранит ваши изменения?
 - Что такое Github/Gitlab/Bitbucket?
+
+
+# Запуск
+```
+go run main.go
+```
