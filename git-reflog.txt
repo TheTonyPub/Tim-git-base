@@ -1,0 +1,4 @@
+6d799b6 HEAD@{0}: commit: Оптимизация: замена рекурсии на итеративный цикл для ускорения и избежания переполнения стека
+1551bed HEAD@{1}: commit: Добавлена рекурсивная реализация факториала
+21866be HEAD@{2}: checkout: moving from master to feature/optimiz
+21866be HEAD@{3}: clone: from https://github.com/plutalovaelena/Tim-git-base.git
