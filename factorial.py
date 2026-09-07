@@ -1,11 +1,15 @@
-def factorial_recursive(n):
+# Улучшенная итеративная реализация (цикл)
+def factorial_iterative(n):
     if n < 0:
         raise ValueError("Факториал не определен для отрицательных чисел")
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial_recursive(n - 1)
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
 
 if __name__ == "__main__":
-    number = int(input("Введите число для вычисления факториала: "))
-    print(f"Факториал {number} равен {factorial_recursive(number)}")
+    try:
+        number = int(input("Введите число для вычисления факториала: "))
+        print(f"Факториал {number} равен {factorial_iterative(number)}")
+    except ValueError:
+        print("Пожалуйста, введите целое число.")
