@@ -1,17 +1,14 @@
-# Интерактивный подсчет, вместо рекурсии 
-def is_fibonacci(num):
-    a, b = 0, 1   # первые два числа (F1=0, F2=1)
-    while a <= num:
-        if a == num:
-            return True
-        a, b = b, a + b
-    return False
-
-numbers = list(map(int, input("Введите числа через пробел: ").split()))
-
-#Выполняем перебор и добавляем в список нужные числа 
-result = []
-for number in numbers:
-    if is_fibonacci(number):
-        result.append(number)
-print(*result) #расспоковываем список 
+from functools import *
+@lru_cache(None) #Применяем lru_cache чтобы запоминать результат работы функции, а не рассчитывать их заново 
+ 
+def fibonachi(n):
+    if n < 0:
+        return None
+    if n == 1:
+        return 0
+    if n == 2:
+        return 1
+    return fibonachi(n - 2) + fibonachi(n - 1)
+a = list(map(int, input("Введите числа через пробел: ").split())) #Пользователь вводит числа через пробел
+b=[a[i] for i in range(len(a)) for y in range(1,100) if fibonachi(y) == a[i]] 
+print(*b)
