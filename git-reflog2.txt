@@ -1,0 +1,23 @@
+69b13a8 HEAD@{2026-09-08 17:19:14 +0300}: cherry-pick: C8: объединенный коммит (squash)
+b82cb94 HEAD@{2026-09-08 17:18:37 +0300}: reset: moving to HEAD~1
+3ea43ca HEAD@{2026-09-08 17:18:17 +0300}: commit: C8: объединенный коммит (squash)
+b82cb94 HEAD@{2026-09-08 17:18:15 +0300}: reset: moving to HEAD~2
+f69eee0 HEAD@{2026-09-08 17:17:31 +0300}: commit: temp2
+110e792 HEAD@{2026-09-08 17:17:01 +0300}: commit: temp1
+b82cb94 HEAD@{2026-09-08 17:16:37 +0300}: checkout: moving from master to rebase-branch
+b82cb94 HEAD@{2026-09-08 17:16:18 +0300}: checkout: moving from test-branch to master
+d7b2bbc HEAD@{2026-09-08 17:14:12 +0300}: commit: docs: добавить reflog
+eb15e68 HEAD@{2026-09-07 18:39:36 +0300}: commit: docs: добавить reflog
+16c274a HEAD@{2026-09-07 18:37:33 +0300}: commit: docs: добавить историю
+2d6499c HEAD@{2026-09-07 18:37:25 +0300}: commit: C7: добавить World
+8b21424 HEAD@{2026-09-07 18:37:20 +0300}: commit: C6: добавить Hello
+b82cb94 HEAD@{2026-09-07 18:37:16 +0300}: checkout: moving from master to test-branch
+b82cb94 HEAD@{2026-09-07 18:36:48 +0300}: commit (merge): merge: разрешить конфликт
+0eef556 HEAD@{2026-09-07 18:35:48 +0300}: reset: moving to 0eef5568afc9be69e8fe30f6e09fc662d8d8b905
+0eef556 HEAD@{2026-09-07 18:29:09 +0300}: commit: C5: добавить git add file.txt!
+4cbb7b2 HEAD@{2026-09-07 18:29:05 +0300}: checkout: moving from new-branch to master
+fdc2b68 HEAD@{2026-09-07 18:29:01 +0300}: commit: C4: добавить Git
+00b618c HEAD@{2026-09-07 18:28:55 +0300}: commit: C3: добавить !
+4cbb7b2 HEAD@{2026-09-07 18:28:52 +0300}: checkout: moving from master to new-branch
+4cbb7b2 HEAD@{2026-09-07 18:28:47 +0300}: commit: C2: добавить Мир
+5cc9e33 HEAD@{2026-09-07 18:28:41 +0300}: commit (initial): C1: добавить Привет
