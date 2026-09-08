@@ -1,0 +1,11 @@
+50aa6dd HEAD@{2026-09-08 21:42:17 +0300}: commit: Разрешен конфликт в practice.txt
+3f826cb HEAD@{2026-09-08 21:39:29 +0300}: merge conflict-branch: Fast-forward
+7ba76cf HEAD@{2026-09-08 21:37:59 +0300}: checkout: moving from conflict-branch to feature/algo
+3f826cb HEAD@{2026-09-08 21:37:33 +0300}: commit: Изменение первой строки в conflict-branch
+7ba76cf HEAD@{2026-09-08 21:34:49 +0300}: checkout: moving from feature/algo to conflict-branch
+7ba76cf HEAD@{2026-09-08 21:30:04 +0300}: checkout: moving from test-branch to feature/algo
+12b259f HEAD@{2026-09-08 21:29:40 +0300}: commit: Вторая строка в test-branch
+7ba76cf HEAD@{2026-09-08 21:26:22 +0300}: checkout: moving from feature/algo to test-branch
+7ba76cf HEAD@{2026-09-08 21:25:49 +0300}: commit: Первый коммит: создан practice.txt
+21866be HEAD@{2026-09-08 21:21:18 +0300}: checkout: moving from master to feature/algo
+21866be HEAD@{2026-09-08 21:17:31 +0300}: clone: from https://github.com/azizanizomdzonova/Tim-git-base.git
