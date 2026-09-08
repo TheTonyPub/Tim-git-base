@@ -9,5 +9,8 @@ def factorial(n):
 
 
 if __name__ == "__main__":
-    n = int(input("Введите n: "))
-    print(f"{n}! = {factorial(n)}")
+    try:
+        n = int(input("Введите n: "))
+        print(f"{n}! = {factorial(n)}")
+    except ValueError as error:
+        print(f"Ошибка: {error}")
