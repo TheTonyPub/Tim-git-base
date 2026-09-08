@@ -49,3 +49,29 @@ python benchmark.py
 Для рекурсивной версии используйте небольшие индексы: количество вызовов
 растёт экспоненциально. Объяснение изменения, оценки сложности и методика
 замера находятся в [OPTIMIZATION.md](OPTIMIZATION.md).
+
+## Практика Git и подготовка к защите
+
+Локальная практика выполнена в отдельном учебном репозитории. Его журнал
+находится в [git-reflog.txt](git-reflog.txt), а сценарий с реальными хешами —
+в [docs/git-practice.md](docs/git-practice.md). Вывод команд сохранён в
+[docs/git-practice-transcript.txt](docs/git-practice-transcript.txt).
+
+Полная история учебных веток и объекты из reflog приложены в
+[docs/git-local-practice.bundle](docs/git-local-practice.bundle). Их можно
+проверить в отдельной папке, выполнив из корня этого проекта:
+
+```bash
+git bundle verify docs/git-local-practice.bundle
+git clone docs/git-local-practice.bundle ../git-local-practice-review
+git -C ../git-local-practice-review log --all --graph --oneline
+git -C ../git-local-practice-review show c928eb1
+```
+
+Последняя команда показывает восстановленный коммит. Локальный reflog при
+клонировании не переносится; его сохранённый текст есть в `git-reflog.txt`.
+Хеши учебной практики относятся к этому bundle, а история разработки основной
+программы видна в рабочей ветке fork.
+
+[Памятка к дополнительным вопросам](docs/git-explanations.md) объясняет
+устройство Git и смысл использованных команд.

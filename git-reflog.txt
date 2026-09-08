@@ -1,0 +1,42 @@
+c928eb1 HEAD@{2026-09-08 19:28:22 +0300}: merge recovered/notes: Fast-forward
+4b425b9 HEAD@{2026-09-08 19:28:22 +0300}: checkout: moving from recovered/notes to main
+c928eb1 HEAD@{2026-09-08 19:28:22 +0300}: checkout: moving from practice/recovery to recovered/notes
+4b425b9 HEAD@{2026-09-08 19:28:22 +0300}: reset: moving to HEAD~1
+c928eb1 HEAD@{2026-09-08 19:28:22 +0300}: commit: docs: add note to recover through reflog
+4b425b9 HEAD@{2026-09-08 19:28:22 +0300}: checkout: moving from main to practice/recovery
+4b425b9 HEAD@{2026-09-08 19:28:22 +0300}: cherry-pick: docs: add reference Fibonacci values
+923d766 HEAD@{2026-09-08 19:28:22 +0300}: checkout: moving from experiment/notes to main
+6291fa8 HEAD@{2026-09-08 19:28:22 +0300}: commit: docs: add reference Fibonacci values
+a691560 HEAD@{2026-09-08 19:28:22 +0300}: commit: experiment: keep draft investigation in separate branch
+923d766 HEAD@{2026-09-08 19:28:22 +0300}: checkout: moving from main to experiment/notes
+923d766 HEAD@{2026-09-08 19:28:21 +0300}: merge docs/boundaries: Fast-forward
+2ec9c1a HEAD@{2026-09-08 19:28:21 +0300}: checkout: moving from docs/boundaries to main
+923d766 HEAD@{2026-09-08 19:28:21 +0300}: rebase (finish): returning to refs/heads/docs/boundaries
+923d766 HEAD@{2026-09-08 19:28:21 +0300}: rebase (squash): docs: combine Fibonacci boundary examples
+02de7be HEAD@{2026-09-08 19:28:21 +0300}: rebase (squash): # This is a combination of 2 commits.
+da98f99 HEAD@{2026-09-08 19:28:21 +0300}: rebase (start): checkout HEAD~3
+877e7ea HEAD@{2026-09-08 19:27:18 +0300}: commit: docs: add negative input example
+d7198e0 HEAD@{2026-09-08 19:27:18 +0300}: commit: docs: add one input example
+da98f99 HEAD@{2026-09-08 19:27:17 +0300}: commit: docs: add zero input example
+2ec9c1a HEAD@{2026-09-08 19:27:17 +0300}: checkout: moving from main to docs/boundaries
+2ec9c1a HEAD@{2026-09-08 19:27:17 +0300}: merge docs/algorithm: Fast-forward
+f285025 HEAD@{2026-09-08 19:27:17 +0300}: checkout: moving from docs/algorithm to main
+2ec9c1a HEAD@{2026-09-08 19:27:17 +0300}: rebase (finish): returning to refs/heads/docs/algorithm
+2ec9c1a HEAD@{2026-09-08 19:27:17 +0300}: rebase (pick): docs: describe iterative Fibonacci algorithm
+f285025 HEAD@{2026-09-08 19:27:17 +0300}: rebase (start): checkout main
+8a5e265 HEAD@{2026-09-08 19:27:17 +0300}: checkout: moving from main to docs/algorithm
+f285025 HEAD@{2026-09-08 19:27:17 +0300}: commit: docs: record resolved example configuration
+3abf838 HEAD@{2026-09-08 19:27:17 +0300}: checkout: moving from docs/algorithm to main
+8a5e265 HEAD@{2026-09-08 19:27:17 +0300}: commit: docs: describe iterative Fibonacci algorithm
+3abf838 HEAD@{2026-09-08 19:27:17 +0300}: checkout: moving from main to docs/algorithm
+3abf838 HEAD@{2026-09-08 19:27:17 +0300}: commit (merge): merge: resolve example size conflict by choosing n=20
+3f9c609 HEAD@{2026-09-08 19:27:16 +0300}: commit: config: change default example to n=12
+c0c60b7 HEAD@{2026-09-08 19:27:16 +0300}: checkout: moving from feature/larger-example to main
+d1ea78b HEAD@{2026-09-08 19:27:16 +0300}: commit: config: choose n=20 for a larger example
+c0c60b7 HEAD@{2026-09-08 19:27:16 +0300}: checkout: moving from main to feature/larger-example
+c0c60b7 HEAD@{2026-09-08 19:27:16 +0300}: merge docs/launch: Merge made by the 'ort' strategy.
+af89bfe HEAD@{2026-09-08 19:27:16 +0300}: commit: docs: start project changelog
+acd4852 HEAD@{2026-09-08 19:27:16 +0300}: checkout: moving from docs/launch to main
+2050fdd HEAD@{2026-09-08 19:27:16 +0300}: commit: docs: explain how to run Fibonacci
+acd4852 HEAD@{2026-09-08 19:27:16 +0300}: checkout: moving from main to docs/launch
+acd4852 HEAD@{2026-09-08 19:27:16 +0300}: commit (initial): feat: add iterative Fibonacci example
