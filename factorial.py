@@ -1,16 +1,19 @@
 '''
-Простой рекурсивный алгоритм
+Итеративный алгоритм вычисления факториала
 '''
 def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n - 1)
+    res = 1
+    for i in range(2, n + 1):
+        res *= i
+    return res
 
 
 if __name__ == "__main__":
     #Ввод от пользователя
     num = int(input('Введите число: '))
 
-    #Вычисление и вывод
-    res = factorial(num)
-    print(f'Факториал числа {num} = {res}')
+    if num < 0:
+        print('Ошибка: число не может быть отрицательным')
+    else:
+        res = factorial(num)
+        print(f'Факториал числа {num} = {res}')
