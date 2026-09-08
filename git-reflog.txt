@@ -1,0 +1,7 @@
+faf6363 HEAD@{2026-09-08 16:48:02 +0300}: commit: Add project documentation
+8802ca4 HEAD@{2026-09-08 16:43:56 +0300}: commit: Optimize factorial algorithm
+95d67b5 HEAD@{2026-09-08 16:42:38 +0300}: commit: Add input validation
+6816f5f HEAD@{2026-09-08 16:40:33 +0300}: commit: Implement recursive factorial
+21866be HEAD@{2026-09-08 16:32:13 +0300}: checkout: moving from experimnet to experiment
+21866be HEAD@{2026-09-08 16:32:01 +0300}: checkout: moving from master to experimnet
+21866be HEAD@{2026-09-08 16:29:46 +0300}: clone: from https://github.com/I3eUper/Tim-git-base.git
