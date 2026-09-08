@@ -7,9 +7,10 @@ def factorial(n):
     return n * factorial(n - 1)
 
 
-#Ввод от пользователя
-num = int(input('Введите число: '))
+if __name__ == "__main__":
+    #Ввод от пользователя
+    num = int(input('Введите число: '))
 
-#Вычисление и вывод
-res = factorial(num)
-print(f'Факториал числа {num} = {res}')
+    #Вычисление и вывод
+    res = factorial(num)
+    print(f'Факториал числа {num} = {res}')
