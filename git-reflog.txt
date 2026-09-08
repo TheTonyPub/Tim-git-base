@@ -1,0 +1,5 @@
+73d77f5 HEAD@{2026-09-08 21:12:27 +0300}: commit: оптимизировал факториал через цикл
+94818f5 HEAD@{2026-09-08 21:09:44 +0300}: commit (amend): первая версия факториала и ридми
+b76ca28 HEAD@{2026-09-08 21:04:11 +0300}: commit: первая версия факториала и ридми
+21866be HEAD@{2026-09-08 20:53:33 +0300}: checkout: moving from master to feature/factorial-optimization
+21866be HEAD@{2026-09-08 20:52:22 +0300}: clone: from https://github.com/Uiqora/Tim-git-base.git
