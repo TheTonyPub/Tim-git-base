@@ -1,3 +1,7 @@
+ae39184 HEAD@{2026-09-09 00:33:57 +0300}: commit: Добавлена итеративная оптимизированная версия факториала
+7876fc0 HEAD@{2026-09-08 23:45:11 +0300}: commit: Добавлен git-reflog.txt
+8d81ded HEAD@{2026-09-08 21:58:13 +0300}: commit: Добавлена инструкция и описание оптимизации
+6a4e69e HEAD@{2026-09-08 21:51:39 +0300}: commit: Добавлена рекурсивная версия факториала
 50aa6dd HEAD@{2026-09-08 21:42:17 +0300}: commit: Разрешен конфликт в practice.txt
 3f826cb HEAD@{2026-09-08 21:39:29 +0300}: merge conflict-branch: Fast-forward
 7ba76cf HEAD@{2026-09-08 21:37:59 +0300}: checkout: moving from conflict-branch to feature/algo
