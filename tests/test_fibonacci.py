@@ -6,6 +6,7 @@ import sys
 import unittest
 
 from fibonacci import fibonacci
+from examples.fibonacci_recursive import fibonacci as fibonacci_recursive
 
 
 PROGRAM = Path(__file__).resolve().parents[1] / "fibonacci.py"
@@ -20,6 +21,14 @@ class FibonacciTests(unittest.TestCase):
     def test_negative_index_is_rejected(self):
         with self.assertRaises(ValueError):
             fibonacci(-1)
+
+    def test_large_known_value(self):
+        self.assertEqual(fibonacci(100), 354224848179261915075)
+
+    def test_matches_original_for_small_indices(self):
+        for n in range(21):
+            with self.subTest(n=n):
+                self.assertEqual(fibonacci(n), fibonacci_recursive(n))
 
     def test_non_integer_index_is_rejected(self):
         for value in [1.5, "10", None, True]:
@@ -39,10 +48,13 @@ class CommandLineTests(unittest.TestCase):
         )
 
     def test_valid_input(self):
-        result = self.run_program("10")
-        self.assertEqual(result.returncode, 0)
-        self.assertEqual(result.stdout.strip(), "55")
-        self.assertEqual(result.stderr, "")
+        for value, expected in [("0", "0"), ("1", "1"), ("10", "55"),
+                                ("100", "354224848179261915075")]:
+            with self.subTest(value=value):
+                result = self.run_program(value)
+                self.assertEqual(result.returncode, 0)
+                self.assertEqual(result.stdout.strip(), expected)
+                self.assertEqual(result.stderr, "")
 
     def test_invalid_input(self):
         for value in ["-1", "1.5", "abc"]:

@@ -4,15 +4,14 @@ import argparse
 
 
 def fibonacci(n: int) -> int:
-    """Return the n-th Fibonacci number using two running values."""
+    """Return the n-th Fibonacci number using the recursive definition."""
     if not isinstance(n, int) or isinstance(n, bool):
         raise TypeError("n must be an integer")
     if n < 0:
         raise ValueError("n must be non-negative")
-    current, following = 0, 1
-    for _ in range(n):
-        current, following = following, current + following
-    return current
+    if n < 2:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
 
 def non_negative_integer(value: str) -> int:

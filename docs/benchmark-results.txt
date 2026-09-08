@@ -1,0 +1,8 @@
+Python: 3.12.14 (CPython)
+System: Windows-11-10.0.26200-SP0
+Best of 5 repeats; recursive: 3 calls/repeat; iterative: 10000 calls/repeat
+Times include function-call overhead and depend on the machine and load.
+n | result | recursive seconds/call | iterative seconds/call | ratio
+10 | 55 | 0.000015667 | 0.000000331 | 47.3
+20 | 6765 | 0.001905200 | 0.000000530 | 3596.1
+30 | 832040 | 0.228626533 | 0.000000745 | 306708.3
